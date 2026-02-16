@@ -1,5 +1,4 @@
-# This program converts temperatures between Fahrenheit and Celsius.
-# Based on professor's starter code
+#Solo code 5
 import os
 import sys
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -87,4 +86,5 @@ while True:
 
     # Update display
     pygame.display.update()
+
     clock.tick(FRAMES_PER_SECOND)
